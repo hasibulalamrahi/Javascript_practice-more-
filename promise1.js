@@ -1,3 +1,4 @@
+
 let stocks = {
     fruits : ["strawberry","grape","Banana","apple"],
     liquid : ["water","ice"],

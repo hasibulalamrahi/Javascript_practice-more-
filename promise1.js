@@ -21,7 +21,9 @@ let order = (time ,work) => {
 
         else {
             reject(console.log("Our shop is closed"))
+
         }
+       
     })
 }
 
@@ -63,3 +65,6 @@ order(2000,() => console.log(`${stocks.fruits[0]} is selected`))
 .finally(() =>{
     console.log("Day ended ,Shop is closed");
 })
+
+console.log("Order Ended");
+

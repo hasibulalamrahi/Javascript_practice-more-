@@ -19,8 +19,17 @@ Person.prototype = {
 
 };
 
+// Person.prototype.play = function (){
+//     console.log("The player is playing");
+// };
+
 Cricketer.prototype = Object.create(Person.prototype);
 Cricketer.prototype.constructor =Cricketer;
 
 let sakib = new Cricketer("sakib",35,"Allrounder","Bangladesh");
 console.log(sakib);
+let tamim = new Person("tamim",32);
+console.log(tamim);
+sakib.eat();
+
+// The above Program can be done using a class

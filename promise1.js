@@ -10,12 +10,15 @@ let stocks = {
 let is_shop_open = true;
 
 let order = (time ,work) => {
+   
     return new Promise ( (resolve ,reject) =>{
         if(is_shop_open){
+            
             setTimeout(()=>{
             resolve( work())
 
             },time)
+           
             
         }
 
@@ -43,7 +46,9 @@ order(2000,() => console.log(`${stocks.fruits[0]} is selected`))
 })
 
 .then(()=>{
-    return order(1000,()=>console.log("start the machine"))
+    return order(1000,()=>{
+        console.log("start the machine")
+    })
 })
 
 .then(()=>{
@@ -66,5 +71,5 @@ order(2000,() => console.log(`${stocks.fruits[0]} is selected`))
     console.log("Day ended ,Shop is closed");
 })
 
-console.log("Order Ended");
+// console.log("Order Ended");
 

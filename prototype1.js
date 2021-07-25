@@ -111,7 +111,7 @@
 
 
 // function Person(name,age){
-//     let person =Object.create(Person.prototype);
+//   let person =Object.create(Person.prototype);
 
 //     person.name = name;
 //     person.age = age ;
@@ -139,19 +139,20 @@
 // sakib.sleeps();
 // mushfiq.eat();
 // mushfiq.sleeps();
+// console.log(sakib);
 
 
 //We can make this more easy 
 
 function Person(name,age){
-    // let person =Object.create(Person.prototype);
+   // let person =Object.create(Person.prototype);
 
     this.name = name;
     this.age = age ;
 
    
 
-    // return person;
+    //return person;
 
 }
 
@@ -172,3 +173,4 @@ sakib.eat();
 sakib.sleeps();
 mushfiq.eat();
 mushfiq.sleeps();
+console.log(sakib);

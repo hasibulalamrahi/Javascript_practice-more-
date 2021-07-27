@@ -93,3 +93,6 @@ var t20Runs = 1500;
 
 var newFunc = printName.bind(sakib,testRuns,odiRuns,t20Runs);
 newFunc(); 
+
+
+

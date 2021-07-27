@@ -33,7 +33,7 @@ const processOrder =(customer,callback) => {
 
 
 const completeOrder = (customer,callback) => {
-    console.log(`Completed Order for the customer ${customer}`);
+    console.log(`Completed Order for the customer ${customer} `);
     callback(customer);
 };
 const deliverOrder = (customer) =>{
@@ -50,5 +50,8 @@ takeOrder("customer 1",(customer)=>{
     });
 });
 
-console.log("Here execution is stopped");
-console.log("Lets wait for some few more time ");
+
+
+
+
+

@@ -22,7 +22,7 @@ function time(ms){
 
 async function kitchen() {
     try{
-        await time(2000);
+        await time(1000);
         console.log(`${stocks.fruits[0]} is selected`);
 
         await time(3000);
@@ -53,5 +53,6 @@ async function kitchen() {
         console.log("day ended ,shop is closed");
     }
 }
+
 
 kitchen ();

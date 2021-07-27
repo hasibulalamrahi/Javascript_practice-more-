@@ -1,5 +1,5 @@
 
-let enough_balance = true ;
+let enough_balance = false ;
 
 let payment = (time , steps) => {
     return new Promise ((resolve ,reject ) =>{
@@ -35,10 +35,10 @@ payment(2000,() => console.log("Balace is checked"))
     return payment(3000,() => console.log("Transaction is Successful"));
 })
 
-.catch(() =>{
-    console.log("Error has occured , please try again later")
-})
+// .catch(() =>{
+//     console.log("Error has occured , please try again later")
+// })
 
-.finally(() =>{
-    console.log("Thank you for the transaction ");
-})
+// .finally(() =>{
+//     console.log("Thank you for the transaction ");
+// })

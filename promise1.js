@@ -71,5 +71,5 @@ order(2000,() => console.log(`${stocks.fruits[0]} is selected`))
     console.log("Day ended ,Shop is closed");
 })
 
-// console.log("Order Ended");
+
 

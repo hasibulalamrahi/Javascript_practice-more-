@@ -6,6 +6,7 @@ function bankAccount(initialBalance){
     };
 };
 
-// var account = bankAccount(100000);
-// console.log(account());
-// bankAccount(5000);
+var account = bankAccount(100000);
+console.log(account());
+bankAccount(5000);
+
